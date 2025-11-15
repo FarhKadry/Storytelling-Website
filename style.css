@@ -50,3 +50,58 @@ body {
   background: var(--primaryBg);
   height: 3000px;
 }
+.fadedClick {
+  opacity: 0.3;
+}
+.container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: var(--primaryBg);
+  overflow: auto;
+}
+.coverimg{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  z-index: 0;
+  /* margin-bottom: 1000px; */
+  top: 0;
+}
+.logo{
+  width: 150px;
+  height: 55px;
+  margin-left: 32px;
+}
+.sticky{
+  width: 100%;
+  position: sticky;
+  top: 0;  
+}
+h1{
+   font-size: 92px;
+   margin: 20px 0;
+   font-weight: 300;
+   font-style: italic;
+}
+.flexColumn{
+  flex-direction: column;
+}
+.logo2{
+  width: 568px;
+  height: auto;
+  margin-top: 300px;
+}
+.citybg{
+  background: none;
+  background-image: url(public/images/logobg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 450px;
+  width: 100%;
+  max-width: 1727px;
+}

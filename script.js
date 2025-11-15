@@ -12,3 +12,15 @@ const btn = document.getElementById("myBtn");
 function toggleOpacity(next) {
   element.classList.toggle("fadedClick");
 };
+function startAnim(container) {
+  container.querySelectorAll('.item').forEach(item => {
+    item.classList.add('fadeIn');
+  });
+}
+// function showItem() {
+//   document.querySelector('.item').classList.add('show');
+// }
+
+// function hideItem() {
+//   document.querySelector('.item').classList.remove('show');
+// }

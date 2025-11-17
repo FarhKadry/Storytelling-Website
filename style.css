@@ -160,7 +160,6 @@ h4{
   animation: reveal_animation both ease-in;
   animation-timeline: --scroll-tl;
   animation-delay: cover 10%;
-  animation-end-delay: cover 35%;
   animation-range: cover 10% cover 35%;
 }
 /* TEXT REVEAL */
@@ -171,7 +170,6 @@ h4{
   animation: reveal_animation both ease-out;
   animation-timeline: --scroll-tl;
   animation-delay: cover 35%;
-  animation-end-delay: cover 50%;
   animation-range: cover 35% cover 50%;
   position: sticky;
   bottom: 40%;
@@ -202,7 +200,6 @@ h4{
   view-timeline: --scroll-tl;
   animation-timeline: --scroll-tl;
   animation-delay: cover 35%;
-  animation-end-delay: cover 50%;
   animation-range: cover 35% cover 50%;
 }
 @keyframes shake_horizontal {

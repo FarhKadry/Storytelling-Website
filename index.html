@@ -17,17 +17,17 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#start">It starts</a>
+                    <a href="#start">The Agent</a>
                 </li>
                 <li>
-                    <a href="#start">Isaiah</a>
+                    <a href="#isaiah">Isaiah</a>
                 </li>
                 <img class="logo" src="public/images/logo.png" alt="">
                 <li>
-                    <a href="#start">Dubai</a>
+                    <a href="#dubai">Dubai</a>
                 </li>
                 <li>
-                    <a href="#start">You know me..</a>
+                    <a href="#end">You know me..</a>
                 </li>
             </ul>
         </nav>
@@ -42,30 +42,72 @@
 <button id="Btn" onclick="playAudio(); toggleOpacity('Btn')">Play</button>
 <button id="Btn2" onclick="pauseAudio(); toggleOpacity('Btn2')">Pause</button> -->
         </div>
-        <div class="container sticky"><img class="coverimg" src="public/images/cover.png" alt="cover image"></div>
+        <section>
+            <div class="container sticky"><img class="coverimg" src="public/images/cover.png" alt="cover image"></div>
         <div class="spacer"></div>
-        <div class="container flexColumn sticky citybg "> 
-            <img  class="logo2" src="public/images/logo2.png" alt="">
-            <h1 class="font2 autoShow">The finely woven thread</h1>
+        <div class="container flex_column sticky citybg "> 
+            <img  class="logo_2" src="public/images/logo2.png" alt="">
+            <h1 class="font_2 auto_show">The finely woven thread</h1>
         </div>
-    </main>
-    <footer>
+        </section>
         
+    </main>
+    <!-- STORY -->
+    <section class="padded_container">
+     <!--SLIDE 1 -->
+    <div id="start" class="reveal_section">
+        <img class="reveal_img img_stroke" src="public/images/collection1img04.jpg" alt="">
+        <img class="reveal_text img_stroke" src="public/images/collection1img02.jpg" alt="">
+        <img class="reveal_img reveal_3 img_stroke" src="public/images/collection1img01.jpg" alt="">
+        <img class="reveal_text img_stroke" src="public/images/collection1img03.jpg" alt="">
+    </div>
+    <!--SLIDE 2 -->
+    <div class="reveal_section reveal_section2">
+        <img class=" img_stroke section1_slide2" src="public/images/chaosScene.jpg" alt="">
+    </div>
+    <!-- SLIDE3 -->
+     <div class="reveal_section reveal_section2">
+        <div class="img_stroke section1_slide2 section1_slide5 section1_slide3 tilted_item" alt=""> 
+            <div class=" section1_textbox textbox section1_textbox2">
+                <h4>“sarge, the situation just got serious! we need more backup now!”</h4>
+            </div>
+        </div>
+    </div>
+    <!--SLIDE 4 -->
+    <div class="reveal_section reveal_section2">
+        <img class="reveal_img section1_slide4 img_stroke tilted_item" src="public/images/section1slide4.png" alt="">
+    </div>
+    <!-- SLIDE5 -->
+    <div class="reveal_section reveal_section2">
+        <div class="img_stroke section1_slide2 section1_slide5" alt=""> 
+            <div class=" section1_textbox textbox">
+                <h2>“No one will ever know my full story”</h2>
+            </div>
+        </div>
+    </div>
+     <!-- SLIDE6 -->
+    <div class="reveal_section reveal_section2">
+        <img class="reveal_img section1_slide4 img_stroke tilted_item" src="public/images/section1slide6.jpg" alt="">
+    </div>
+    <!--SLIDE7 7 -->
+    <div class="reveal_section reveal_section2">
+        <img class="reveal_img section1_slide4 img_stroke tilted_item" src="public/images/section1slide7.jpg" alt="">
+    </div>
+    <!-- SLIDE8 -->
+     <div class="reveal_section reveal_section2">
+        <div class="text_reveal img_stroke section1_slide5 section1_final tilted_item" alt=""> 
+            <div class=" section1_textbox textbox section1_textbox3">
+                <h4>“The client’s payment was recieved on time.”</h4>
+            </div>
+            <div class=" section1_textbox textbox section1_textbox4">
+                <h4>“I have distributed the moneys appropriately.”</h4>
+            </div>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div class="final_gif"></div>
     </footer>
-    <body>
-  <div class="reveal-section">
-    <img class="reveal-img img_stroke" src="public/images/collection1img01.jpg" alt="">
-    <img class="reveal-text img_stroke" src="public/images/collection1img01.jpg" alt="">
-  </div>
-
-  <div class="reveal-section">
-    <img class="reveal-img" src="public/images/collection1img03.jpg" alt="">
-    <p class="reveal-text">More content…</p>
-  </div>
-  
-  <!-- more .reveal-section as needed -->
-</body>
-
 </main>
     <script src="script.js"></script>
 </body>

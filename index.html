@@ -17,17 +17,17 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#start">The Agent</a>
+                    <a href="#characters">Characters</a>
                 </li>
                 <li>
-                    <a href="#isaiah">Isaiah</a>
+                    <a href="#start">the agent</a>
                 </li>
-                <img class="logo" src="public/images/logo.png" alt="">
+                <a href="#hero"><img class="logo" src="public/images/logo.png" alt=""></a>
+                <li>
+                    <a href="#isaiah">Isaiah's mission</a>
+                </li>
                 <li>
                     <a href="#dubai">Dubai</a>
-                </li>
-                <li>
-                    <a href="#end">You know me..</a>
                 </li>
             </ul>
         </nav>
@@ -38,7 +38,6 @@
             <source src="public/audio/audio1.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
             </audio>
-
             <button id="Btn" onclick="playAudio(); toggleOpacity('Btn')">Play</button>
             <button id="Btn2" onclick="pauseAudio(); toggleOpacity('Btn2')">Pause</button>
         </div> -->
@@ -52,13 +51,13 @@
         </div>
         </section>
         <!-- CHARACTERS -->
-         <section class="padded_container flex_column">
+         <section id="characters" class="padded_container flex_column">
             <h2 class="characters_heading font_2">Characters</h2>
             <div id="character_array" class="characters_section reveal_section">
             </div>
             </div>
          </section>
-        <!-- STORY -->
+        <!-- STORY SLIDES -->
         <section class="padded_container">
             <!--SLIDE 1 -->
         <div id="start" class="reveal_section">
@@ -72,7 +71,7 @@
             <img class=" img_stroke section1_slide2" src="public/images/chaosScene.jpg" alt="">
         </div>
         <!-- SLIDE3 -->
-            <div class="reveal_section reveal_section2">
+        <div class="reveal_section reveal_section2">
             <div class="img_stroke section1_slide2 section1_slide5 section1_slide3 tilted_item" alt=""> 
                 <div class=" section1_textbox textbox section1_textbox2">
                     <h4>“sarge, the situation just got serious! we need more backup now!”</h4>
@@ -108,6 +107,30 @@
                 <div class=" section1_textbox textbox section1_textbox4">
                     <h4>“I have distributed the moneys appropriately.”</h4>
                 </div>
+            </div>
+        </div>
+        </section>
+        <!-- STORY SECTION2 -->
+        <section class="padded_container">
+            <!-- SLIDE1 -->
+        <div id="isaiah" class="reveal_section reveal_section2">
+            <div class="img_stroke section1_slide2 section1_slide5 section2_slide1" alt=""> 
+                <div class=" section1_textbox textbox section1_textbox2">
+                    <h3 class="font_2">Central park, <br> 20 hours later</h3>
+                </div>
+                <img class="reveal_text img_stroke section2_slide2" src="public/images/section2slide2.jpg" alt="">
+            </div>
+        </div>
+        <!-- SLIDE3 -->
+         <div id="start" class="reveal_section">
+            <img class="reveal_img img_stroke" src="public/images/section2slide3img03.jpg" alt="">
+            <img class="reveal_text img_stroke" src="public/images/section2slide3img02.jpg" alt="">
+            <img class="reveal_img reveal_3 img_stroke" src="public/images/section2slide3img01.jpg" alt="">
+        </div>
+        </section>
+        <section id="dubai" class="padded_container">
+            <div class="reveal_section reveal_section2">
+            <div class=" section1_slide2 section1_slide5 section3_slide2" alt=""> 
             </div>
         </div>
         </section>

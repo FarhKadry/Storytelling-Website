@@ -359,3 +359,29 @@ height: 399px;
   font-weight: 500;
   font-style: italic;
 }
+.section2_slide1{
+  background-image: url(public/images/section2slide1.jpg);
+  width: 1272px;
+  height:635px ;
+  animation: none;
+}
+.section2_slide1 .section1_textbox2{
+  box-shadow: none;
+  top: 0;
+  left: 10px;
+  width: 300px;
+}
+.section2_slide1 h3{
+  font-size: 36px;
+}
+.section2_slide2{
+  position: absolute;
+  right: 20px;
+  top: 410px;
+  width: 994px;
+height: 385px;
+margin-bottom: 600px;
+}
+.section3_slide2{
+  background-image: url(public/images/dubaiSlide2.png);
+}

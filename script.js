@@ -8,7 +8,7 @@ let characters = [
     {
         image: `public/images/character03.jpg`,
         name: `Isaiah Ross`,
-        job: `Black Widow's counselor`,
+        job: `Black Widow's lawyer`,
         tag: `Supporting`
     },
     {

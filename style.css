@@ -426,3 +426,52 @@ margin-bottom: 600px;
 .audio2{
   display: var(--audio2);
 }
+footer{
+  display: flex;
+  flex-direction: column;
+  padding: 120px 20px;
+  background: var(--black);
+  align-items: center;
+  gap: 10px;
+}
+.final_gif{
+  width: 100px;
+  height: 200px;
+  background-image: url(public/images/FinalGif.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.footer div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primaryBg);
+  font-size: 14px;
+  font-family: Staatliches;
+}
+
+.footer input {
+  padding: 5px;
+}
+
+.footer button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+footer h4,
+footer h5{
+  font-family: Staatliches;
+  color: var(--primaryBg);
+  font-weight: 300;
+}

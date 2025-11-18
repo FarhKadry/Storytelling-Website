@@ -27,4 +27,12 @@ for (let i=0; i < characters.length; i++){
                 <div class="tag"><h5>${characters[i].tag}</h5></div>
             </div>
     `
-}
+};
+let audio = document.getElementById("audio");
+let audio_btn = document.getElementById("audioToggle");
+
+audio_btn.addEventListener("click", () => {
+  const action = audio.paused ? "play" : "pause";
+  audio[action]();
+   document.body.classList.toggle("switch_sound");
+});

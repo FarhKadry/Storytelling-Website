@@ -5,6 +5,12 @@
     --stroke:4px solid #000001;
     --greyAccent:#628082;
     --black: #000000;
+    --audio1: block;
+    --audio2: none;
+}
+.switch_sound{
+  --audio1: none;
+  --audio2: block;
 }
 *{
     padding: 0;
@@ -18,7 +24,7 @@
     scroll-behavior: smooth;
 }
 .font_2{
-  font-family: Staatliches;
+  font-family: 'Staatliches';
 }
 @font-face {
   font-family: "Heroika (Namikus)";
@@ -278,16 +284,19 @@ h5{
     transform: translateY(0);
   }
 }
-.final_gif{
+/* .final_gif{
   width: 100%;
-  height: 100vh;
+  height: auto;
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
   background: url(public/images/FinalGif.gif);
   background-position: center;
   background-size: cover;
   background-position: center;
   padding: 0 80px;
   position: sticky;
-}
+} */
 .section1_slide3{
   width: 1084px;
 height: 399px;
@@ -384,4 +393,36 @@ margin-bottom: 600px;
 }
 .section3_slide2{
   background-image: url(public/images/dubaiSlide2.png);
+}
+.audio_player{
+  position: fixed;
+  bottom: 42px;
+  right: 72px;
+  z-index: 999;
+}
+.audio_button{
+  background-color: var(--redAccent);
+  border: none;
+  padding: 12px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border: 2px solid var(--black);
+  width: 140px;
+}
+.audio_button h4{
+  color: var(--primaryBg);
+  font-weight: 500;
+  font-family: 'Staatliches';
+}
+.audio_button:hover img,
+.audio_button:hover h4{
+  opacity: 0.8;
+
+}
+.audio1{
+  display: var(--audio1);
+}
+.audio2{
+  display: var(--audio2);
 }
